@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2f67787309a88624f8dd31a26002fe07
+timeCreated: 1478357914
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - EverCookiez
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 802c39411ab3126489730aaad7464226, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

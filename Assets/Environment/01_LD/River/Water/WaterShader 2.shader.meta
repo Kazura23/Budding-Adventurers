@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dc3ed56d76bd6e44cb2e13b736ef3fca
+timeCreated: 1484138703
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _water1: {fileID: 2800000, guid: cc57be46fc7df2644b7c598b9d637a03, type: 3}
+  - _water2: {fileID: 2800000, guid: 72dc54d3fa24f1f4888583ca796b7ee6, type: 3}
+  - _noise: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+  - _water3: {fileID: 2800000, guid: 6a7401b932cc9af4b809d0e0c33b7628, type: 3}
+  - _node_4780: {fileID: 2800000, guid: 6a7401b932cc9af4b809d0e0c33b7628, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
