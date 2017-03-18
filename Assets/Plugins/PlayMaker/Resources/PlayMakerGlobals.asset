@@ -42,7 +42,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1
+      value: 15
     - useVariable: 1
       name: Damages_Sword_SecondHit
       tooltip: 
