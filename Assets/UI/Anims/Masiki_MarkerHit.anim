@@ -216,13 +216,38 @@ AnimationClip:
         tangentMode: 0
       - time: 0.6666667
         value: {x: -0, y: -0, z: -1, w: 0.00000004371139}
-        inSlope: {x: 0, y: 0, z: -0.04625921, w: 2.355585}
-        outSlope: {x: 0, y: 0, z: -0.04625921, w: 2.355585}
+        inSlope: {x: 0, y: 0, z: -0.023129605, w: 1.1777925}
+        outSlope: {x: 0, y: 0, z: -0.023129605, w: 1.1777925}
+        tangentMode: 0
+      - time: 0.68333334
+        value: {x: -0, y: -0, z: -1, w: 0.00000004371139}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.7
+        value: {x: -0, y: -0, z: -1, w: 0.00000004371139}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.71666664
+        value: {x: -0, y: -0, z: -1, w: 0.00000004371139}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.7333333
+        value: {x: -0, y: -0, z: -1, w: 0.00000004371139}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.75
+        value: {x: -0, y: -0, z: -1, w: 0.00000004371139}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: 
+    path: Masiki_TargetMarker
   m_CompressedRotationCurves: []
   m_EulerCurves: []
   m_PositionCurves: []
@@ -980,11 +1005,36 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 0
+      - time: 0.68333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.71666664
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7333333
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.75
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: 
+    path: Masiki_TargetMarker
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1195,11 +1245,36 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 0
+      - time: 0.68333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.71666664
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7333333
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.75
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: 
+    path: Masiki_TargetMarker
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1407,14 +1482,39 @@ AnimationClip:
         tangentMode: 0
       - time: 0.6666667
         value: -1
-        inSlope: -0.04625921
-        outSlope: -0.04625921
+        inSlope: -0.023129605
+        outSlope: -0.023129605
+        tangentMode: 0
+      - time: 0.68333334
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.71666664
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7333333
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.75
+        value: -1
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: 
+    path: Masiki_TargetMarker
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1622,14 +1722,39 @@ AnimationClip:
         tangentMode: 0
       - time: 0.6666667
         value: 0.00000004371139
-        inSlope: 2.355585
-        outSlope: 2.355585
+        inSlope: 1.1777925
+        outSlope: 1.1777925
+        tangentMode: 0
+      - time: 0.68333334
+        value: 0.00000004371139
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7
+        value: 0.00000004371139
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.71666664
+        value: 0.00000004371139
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7333333
+        value: 0.00000004371139
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.75
+        value: 0.00000004371139
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: 
+    path: Masiki_TargetMarker
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -1641,11 +1766,16 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
+      - time: 0.75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesBaked.x
-    path: 
+    path: Masiki_TargetMarker
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1656,11 +1786,16 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
+      - time: 0.75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesBaked.y
-    path: 
+    path: Masiki_TargetMarker
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1674,13 +1809,13 @@ AnimationClip:
       - time: 0.6666667
         value: 180
         inSlope: 270
-        outSlope: 270
-        tangentMode: 10
+        outSlope: -2160.0005
+        tangentMode: 21
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesBaked.z
-    path: 
+    path: Masiki_TargetMarker
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
