@@ -36,25 +36,25 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 20
+      value: 1
     - useVariable: 1
       name: Damages_Sword_FirstHit
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 15
+      value: 1
     - useVariable: 1
       name: Damages_Sword_SecondHit
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 35
+      value: 1
     - useVariable: 1
       name: Damages_Sword_ThirdHit
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 50
+      value: 1
     - useVariable: 1
       name: EnemyDistanceLengthArrowsP1
       tooltip: 
