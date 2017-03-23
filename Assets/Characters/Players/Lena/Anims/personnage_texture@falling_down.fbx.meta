@@ -147,7 +147,7 @@ ModelImporter:
     - serializedVersion: 16
       name: falling_down
       takeName: mixamo.com
-      firstFrame: 0
+      firstFrame: 30
       lastFrame: 136
       wrapMode: 0
       orientationOffsetY: 0
