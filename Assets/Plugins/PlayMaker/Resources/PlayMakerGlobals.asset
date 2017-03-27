@@ -72,7 +72,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0
+      value: 100
     - useVariable: 1
       name: Mana_Local+10
       tooltip: 
