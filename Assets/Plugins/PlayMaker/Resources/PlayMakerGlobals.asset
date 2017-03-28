@@ -42,19 +42,19 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1
+      value: 15
     - useVariable: 1
       name: Damages_Sword_SecondHit
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1
+      value: 35
     - useVariable: 1
       name: Damages_Sword_ThirdHit
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1
+      value: 50
     - useVariable: 1
       name: EnemyDistanceLengthArrowsP1
       tooltip: 
@@ -72,7 +72,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 100
+      value: 0
     - useVariable: 1
       name: Mana_Local+10
       tooltip: 
