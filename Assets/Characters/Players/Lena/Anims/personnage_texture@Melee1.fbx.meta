@@ -148,7 +148,7 @@ ModelImporter:
       name: Melee1
       takeName: mixamo.com
       firstFrame: 5
-      lastFrame: 42
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

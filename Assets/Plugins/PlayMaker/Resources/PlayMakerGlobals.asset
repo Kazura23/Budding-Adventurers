@@ -168,13 +168,13 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0.25
+      value: 0.2
     - useVariable: 1
       name: SwordCooldownSecondHit
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0.2
+      value: 0.25
     - useVariable: 1
       name: SwordCooldownThirdHit
       tooltip: 
