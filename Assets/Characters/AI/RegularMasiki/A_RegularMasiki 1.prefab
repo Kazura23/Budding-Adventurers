@@ -3850,7 +3850,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.GameObject
-          PropertyName: transform.forward
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -3894,8 +3894,8 @@ MonoBehaviour:
             networkSync: 0
             value: {x: 0, y: 0}
           Vector3Parameter:
-            useVariable: 1
-            name: ForwardEnemy
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3925,7 +3925,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Vector3
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -4171,7 +4171,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.25
+          value: 0.2
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -5951,15 +5951,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetStringValue
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 9845b305a4c8bf00
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: c030f1039845b305a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -5969,7 +5971,19 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: Camera.Zoom
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Low
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -6003,13 +6017,16 @@ MonoBehaviour:
         stringParams:
         - P1 Is Sword
         - P2 Is Sword
-        byteData: 0100
+        byteData: 000100
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000000100000011000000170000001700000001000000
+        paramDataType: 1200000012000000010000000f0000000f0000000100000011000000170000001700000001000000
         paramName:
+        - stringVariable
+        - stringValue
+        - everyFrame
         - floatVariable
         - floatValue
         - everyFrame
@@ -6017,8 +6034,8 @@ MonoBehaviour:
         - isTrue
         - isFalse
         - everyFrame
-        paramDataPos: 00000000010000000000000000000000000000000100000001000000
-        paramByteDataSize: 00000000000000000100000000000000000000000000000001000000
+        paramDataPos: 00000000010000000000000000000000010000000100000000000000000000000100000002000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000000000001000000
     - name: P1 Is Sword
       description: 
       colorIndex: 0
@@ -6131,6 +6148,7 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetStringValue
         - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.BoolTest
@@ -6138,10 +6156,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000070000000a000000
-        actionHashCodes: 5552ad059845b305a4c8bf00
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000030000000a0000000d000000
+        actionHashCodes: c030f1035552ad059845b305a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -6159,7 +6178,19 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: Camera.Zoom
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Low
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -6217,13 +6248,16 @@ MonoBehaviour:
         stringParams:
         - P1 Is Sword
         - P2 Is Sword
-        byteData: 00000000010100
+        byteData: 0000000000010100
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000100000011000000170000001700000001000000
+        paramDataType: 120000001200000001000000140000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000100000011000000170000001700000001000000
         paramName:
+        - stringVariable
+        - stringValue
+        - everyFrame
         - gameObject
         - vector
         - x
@@ -6238,8 +6272,8 @@ MonoBehaviour:
         - isTrue
         - isFalse
         - everyFrame
-        paramDataPos: 0000000000000000000000000100000002000000000000000400000003000000040000000500000000000000000000000100000006000000
-        paramByteDataSize: 0000000000000000000000000000000000000000040000000100000000000000000000000100000000000000000000000000000001000000
+        paramDataPos: 0000000001000000000000000000000000000000000000000100000002000000010000000500000003000000040000000600000000000000000000000100000007000000
+        paramByteDataSize: 0000000000000000010000000000000000000000000000000000000000000000040000000100000000000000000000000100000000000000000000000000000001000000
     - name: P1 Is Sword 2
       description: 
       colorIndex: 0
@@ -6352,6 +6386,7 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetStringValue
         - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.BoolTest
@@ -6359,10 +6394,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000070000000a000000
-        actionHashCodes: 5552ad059845b305a4c8bf00
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000030000000a0000000d000000
+        actionHashCodes: c030f1035552ad059845b305a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -6380,7 +6416,19 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: Camera.Zoom
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Medium
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -6438,13 +6486,16 @@ MonoBehaviour:
         stringParams:
         - P1 Is Sword
         - P2 Is Sword
-        byteData: 00000000010100
+        byteData: 0000000000010100
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000100000011000000170000001700000001000000
+        paramDataType: 120000001200000001000000140000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000100000011000000170000001700000001000000
         paramName:
+        - stringVariable
+        - stringValue
+        - everyFrame
         - gameObject
         - vector
         - x
@@ -6459,8 +6510,8 @@ MonoBehaviour:
         - isTrue
         - isFalse
         - everyFrame
-        paramDataPos: 0000000000000000000000000100000002000000000000000400000003000000040000000500000000000000000000000100000006000000
-        paramByteDataSize: 0000000000000000000000000000000000000000040000000100000000000000000000000100000000000000000000000000000001000000
+        paramDataPos: 0000000001000000000000000000000000000000000000000100000002000000010000000500000003000000040000000600000000000000000000000100000007000000
+        paramByteDataSize: 0000000000000000010000000000000000000000000000000000000000000000040000000100000000000000000000000100000000000000000000000000000001000000
     - name: P1 Is Sword 3
       description: 
       colorIndex: 0
@@ -7230,7 +7281,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.GameObject
-          PropertyName: transform.forward
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -7274,8 +7325,8 @@ MonoBehaviour:
             networkSync: 0
             value: {x: 0, y: 0}
           Vector3Parameter:
-            useVariable: 1
-            name: ForwardEnemy
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -7305,7 +7356,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: UnityEngine.Vector3
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -9222,7 +9273,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -10132,7 +10183,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101010101010101
-        actionIsOpen: 010000000000000001010101
+        actionIsOpen: 010100000000000001010101
         actionStartIndex: 0000000005000000200000003b00000056000000710000008c00000092000000980000009d000000a1000000a6000000
         actionHashCodes: 5f913504fa512a01fa512a01fa512a01fa512a01fa512a017b3126027b31260268fece05a4c8bf0068fece05a4c8bf00
         unityObjectParams: []
