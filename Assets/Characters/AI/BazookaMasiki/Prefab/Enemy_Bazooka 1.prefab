@@ -5820,14 +5820,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -5857,6 +5859,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: Hit By P2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -5864,19 +5878,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: What Player is Sword 2
       description: 
       colorIndex: 0
@@ -6041,14 +6058,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6078,6 +6097,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: Hit By P2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -6085,19 +6116,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: What Player is Sword 3
       description: 
       colorIndex: 0
@@ -6262,14 +6296,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6299,6 +6335,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: Hit By P2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -6306,19 +6354,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: P2 Is Sword
       description: 
       colorIndex: 0
@@ -6343,14 +6394,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6368,6 +6421,18 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams:
+        - useVariable: 1
+          name: Hit By P1
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: Hit By P2
           tooltip: 
@@ -6387,19 +6452,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: P2 Is Sword 2
       description: 
       colorIndex: 0
@@ -6424,14 +6492,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6449,6 +6519,18 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams:
+        - useVariable: 1
+          name: Hit By P1
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: Hit By P2
           tooltip: 
@@ -6468,19 +6550,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: P2 Is Sword 3
       description: 
       colorIndex: 0
@@ -6505,14 +6590,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6530,6 +6617,18 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams:
+        - useVariable: 1
+          name: Hit By P1
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: Hit By P2
           tooltip: 
@@ -6549,19 +6648,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: What Player is Bow
       description: 
       colorIndex: 0
@@ -6724,14 +6826,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6761,6 +6865,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: Hit By P2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -6768,19 +6884,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: P2 Is Bow
       description: 
       colorIndex: 0
@@ -6805,14 +6924,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe10388611604
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 27fbe10327fbe10388611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -6830,6 +6951,18 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams:
+        - useVariable: 1
+          name: Hit By P1
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: Hit By P2
           tooltip: 
@@ -6849,19 +6982,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000017000000
+        paramDataType: 11000000110000000100000011000000110000000100000017000000
         paramName:
         - boolVariable
         - boolValue
         - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
         - sendEvent
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000100000000000000
+        paramDataPos: 00000000010000000000000002000000030000000100000000000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000
     - name: First Hit P2
       description: 
       colorIndex: 0

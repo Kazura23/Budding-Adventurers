@@ -17,6 +17,7 @@ TagManager:
   - Cherry
   - Marbles
   - Tree
+  - Shop
   layers:
   - Default
   - TransparentFX
