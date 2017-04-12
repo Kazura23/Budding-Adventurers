@@ -7,9 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TEX_Clea_V2
-  m_Shader: {fileID: 4800000, guid: 273873a89ee343b45a1471ba4c363d79, type: 3}
-  m_ShaderKeywords: OUTLINES
-  m_LightmapFlags: 5
+  m_Shader: {fileID: 4800000, guid: 6782973e3ca8b2543beddb0a3dc3175e, type: 3}
+  m_ShaderKeywords: OUTLINES TCP2_OUTLINE_TEXTURED TCP2_TANGENT_AS_NORMALS _EMISSION
+  m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
@@ -117,7 +117,7 @@ Material:
       second: 0
     - first:
         name: _Outline
-      second: 0.4
+      second: -0.03
     - first:
         name: _Parallax
       second: 0.02
@@ -157,7 +157,7 @@ Material:
       second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _EmissionColor
-      second: {r: 0, g: 0, b: 0, a: 1}
+      second: {r: 0.6397059, g: 0.6397059, b: 0.6397059, a: 1}
     - first:
         name: _HColor
       second: {r: 0.6, g: 0.6, b: 0.6, a: 1}

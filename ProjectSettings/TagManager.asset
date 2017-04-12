@@ -33,7 +33,7 @@ TagManager:
   - Environment
   - Enemies
   - Bounce
-  - 
+  - UI 3D
   - 
   - 
   - 
@@ -54,4 +54,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI 3D
+    uniqueID: 1782481235
     locked: 0

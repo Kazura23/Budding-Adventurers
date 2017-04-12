@@ -7,8 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TEX_Clea
-  m_Shader: {fileID: 4800000, guid: 6782973e3ca8b2543beddb0a3dc3175e, type: 3}
-  m_ShaderKeywords: TCP2_UV2_AS_NORMALS
+  m_Shader: {fileID: 4800000, guid: 35b7c6ba7e7041445a6bcfab3a36db38, type: 3}
+  m_ShaderKeywords: OUTLINE_BLENDING TCP2_OUTLINE_CONST_SIZE TCP2_OUTLINE_TEXTURED
+    TCP2_TANGENT_AS_NORMALS TCP2_ZSMOOTH_ON
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -36,16 +37,16 @@ Material:
     m_Floats:
     - first:
         name: _DstBlendOutline
-      second: 0
+      second: 4
     - first:
         name: _Offset1
-      second: 0
+      second: -11.63
     - first:
         name: _Offset2
       second: 0
     - first:
         name: _Outline
-      second: 9
+      second: -1
     - first:
         name: _RampSmooth
       second: 0.66
@@ -54,13 +55,13 @@ Material:
       second: 0.62
     - first:
         name: _SrcBlendOutline
-      second: 0
+      second: 3
     - first:
         name: _TexLod
-      second: 1.9
+      second: 6.03
     - first:
         name: _ZSmooth
-      second: -0.5
+      second: 3
     m_Colors:
     - first:
         name: _Color
@@ -70,7 +71,7 @@ Material:
       second: {r: 0.8014706, g: 0.8014706, b: 0.8014706, a: 1}
     - first:
         name: _OutlineColor
-      second: {r: 0, g: 0, b: 0, a: 1}
+      second: {r: 0, g: 0.5542484, b: 0.7529412, a: 1}
     - first:
         name: _SColor
       second: {r: 0.4, g: 0.4, b: 0.4, a: 1}
