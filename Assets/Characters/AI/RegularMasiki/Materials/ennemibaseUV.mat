@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: ennemibaseUV
   m_Shader: {fileID: 4800000, guid: 273873a89ee343b45a1471ba4c363d79, type: 3}
-  m_ShaderKeywords: OUTLINES TCP2_OUTLINE_TEXTURED TCP2_U5_REFLPROBE TCP2_ZSMOOTH_ON
+  m_ShaderKeywords: OUTLINES TCP2_OUTLINE_CONST_SIZE TCP2_U5_REFLPROBE TCP2_ZSMOOTH_ON
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -114,7 +114,7 @@ Material:
       second: 0
     - first:
         name: _Outline
-      second: 0.76
+      second: 0.28
     - first:
         name: _Parallax
       second: 0.02
@@ -147,7 +147,7 @@ Material:
       second: 0
     - first:
         name: _ZSmooth
-      second: -0.5
+      second: 0
     - first:
         name: _ZWrite
       second: 1
@@ -163,7 +163,7 @@ Material:
       second: {r: 0.6, g: 0.6, b: 0.6, a: 1}
     - first:
         name: _OutlineColor
-      second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+      second: {r: 0.19215687, g: 0.15294118, b: 0.20784314, a: 1}
     - first:
         name: _SColor
       second: {r: 0.4, g: 0.4, b: 0.4, a: 1}
