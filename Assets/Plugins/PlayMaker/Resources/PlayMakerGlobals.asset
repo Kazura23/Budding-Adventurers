@@ -114,7 +114,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 100
+      value: 0
     - useVariable: 1
       name: P1.Bow
       tooltip: 
