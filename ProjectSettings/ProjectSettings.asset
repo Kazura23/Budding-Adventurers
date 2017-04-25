@@ -14,7 +14,7 @@ PlayerSettings:
   productName: Test_ImagineCup
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenStyle: 0
+  m_SplashScreenStyle: 1
   m_ShowUnitySplashScreen: 1
   m_VirtualRealitySplashScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -180,13 +180,13 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  resolutionDialogBanner: {fileID: 2800000, guid: fcdc6d22cf3061e40ba3cbb9f4c3548c,
+  resolutionDialogBanner: {fileID: 2800000, guid: a1d686970919a8445aaf424c5884b285,
     type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: e3910d23c67a2e24e88465a407b075e8, type: 3}
       m_Width: 128
       m_Height: 128
   - m_BuildTarget: Standalone
