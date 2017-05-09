@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013473492374}
   - 33: {fileID: 33000013915450800}
   - 23: {fileID: 23000010623125472}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GroundRock_Type3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
