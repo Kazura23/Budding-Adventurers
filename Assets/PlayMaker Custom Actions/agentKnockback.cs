@@ -11,7 +11,7 @@ namespace HutongGames.PlayMaker.Actions
     public class agentKnockback : FsmStateAction
     {
         [RequiredField]  
-         [CheckForComponent(typeof(NavMeshAgent))]
+         [CheckForComponent(typeof(UnityEngine.AI.NavMeshAgent))]
         [Tooltip("The NavMeshAgent game object to knock back")]
         public FsmOwnerDefault gameObject;
         [Tooltip("Amount of KnockBack. Values 0.1 to 1 work best.")]
@@ -34,7 +34,7 @@ namespace HutongGames.PlayMaker.Actions
         private float currentAccel;
         private float currentAngularSpeed;
         private Vector3 moveVector;		
-        NavMeshAgent nm;
+        UnityEngine.AI.NavMeshAgent nm;
 
         public override void Reset()
         {
@@ -55,7 +55,7 @@ namespace HutongGames.PlayMaker.Actions
             directionPri = myPosition - hitObjectPosition;
             direction.Value = directionPri;
             destination = directionPri * knockback.Value;
-            nm = go.GetComponent<NavMeshAgent>();
+            nm = go.GetComponent<UnityEngine.AI.NavMeshAgent>();
      
             if (!repeatFrames.Value)
             {
@@ -82,7 +82,7 @@ namespace HutongGames.PlayMaker.Actions
                 return;
             }
           
-            nm = go.GetComponent<NavMeshAgent>();
+            nm = go.GetComponent<UnityEngine.AI.NavMeshAgent>();
             myPosition = go.gameObject.transform.position;
             directionPri = myPosition - hitObjectPosition;
             direction.Value = directionPri;
