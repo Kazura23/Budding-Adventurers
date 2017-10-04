@@ -51,8 +51,8 @@ InputManager:
     snap: 1
     invert: 0
     type: 2
-    axis: 0
-    joyNum: 2
+    axis: 3
+    joyNum: 1
   - serializedVersion: 3
     m_Name: HorizontalDPadP2
     descriptiveName: 
@@ -99,8 +99,8 @@ InputManager:
     snap: 1
     invert: 1
     type: 2
-    axis: 1
-    joyNum: 2
+    axis: 4
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Fire1
     descriptiveName: 
@@ -332,7 +332,7 @@ InputManager:
     negativeButton: 
     positiveButton: f
     altNegativeButton: 
-    altPositiveButton: joystick 2 button 2
+    altPositiveButton: joystick 1 button 2
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -340,7 +340,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 2
+    joyNum: 1
   - serializedVersion: 3
     m_Name: ReadyLena_P2
     descriptiveName: 
@@ -348,7 +348,7 @@ InputManager:
     negativeButton: 
     positiveButton: f
     altNegativeButton: 
-    altPositiveButton: joystick 2 button 2
+    altPositiveButton: joystick 1 button 2
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -356,7 +356,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 2
+    joyNum: 1
   - serializedVersion: 3
     m_Name: ChangeWeapon_P1
     descriptiveName: 
@@ -396,7 +396,7 @@ InputManager:
     negativeButton: 
     positiveButton: f
     altNegativeButton: 
-    altPositiveButton: joystick 2 button 3
+    altPositiveButton: joystick 1 button 3
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -404,7 +404,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 0
-    joyNum: 2
+    joyNum: 1
   - serializedVersion: 3
     m_Name: BuddyFever_P2
     descriptiveName: 
@@ -444,7 +444,7 @@ InputManager:
     negativeButton: 
     positiveButton: r
     altNegativeButton: 
-    altPositiveButton: joystick 2 button 0
+    altPositiveButton: joystick 1 button 0
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -452,7 +452,7 @@ InputManager:
     invert: 0
     type: 0
     axis: 9
-    joyNum: 2
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Pause_P1
     descriptiveName: 
